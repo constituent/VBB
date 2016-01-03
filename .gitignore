@@ -99,3 +99,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+dat2json/
+data/
+others/
+test/
+*.dat
+VBB.sublime-project
+VBB.sublime-workspace
