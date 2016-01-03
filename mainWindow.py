@@ -71,7 +71,7 @@ daylight = True
 
 screen = pg.display.set_mode((1280, 720))
 # pg.display.set_caption("Virtual Battle Immortal")
-pg.display.set_caption("Venus Blood Immortal ver. 0.01")
+pg.display.set_caption("Venus Blood Berserker ver. 0.1")
 
 # new game
 gameData = GameData(moon, daylight, itemList)
