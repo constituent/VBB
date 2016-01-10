@@ -60,10 +60,11 @@ class Battle():
 		self.elapsedRound = 0
 
 		self.refreshStatus()
-		kishu1 = (tib2.奇襲戦法-tib1.奇襲警戒)//10
+		奇襲夜 = 0 if background.daylight else 9
+		kishu1 = (tib2.奇襲戦法+奇襲夜-tib1.奇襲警戒)//10
 		if kishu1>0: 
 			tib1.moveIndex(kishu1)
-		kishu2 = (tib1.奇襲戦法-tib2.奇襲警戒)//10
+		kishu2 = (tib1.奇襲戦法+奇襲夜-tib2.奇襲警戒)//10
 		if kishu2>0: 
 			tib2.moveIndex(kishu2)
 		tib1.setFrontExist()
