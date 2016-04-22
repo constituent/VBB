@@ -167,7 +167,7 @@ class VB_Window(MouseEvents):
 			self.noEventTime += passedTime
 			self.timePassedTotal += passedTime
 			self.timePassedTotal = self.timePassedTotal%100000# 以免万一溢出了
-			
+
 			self.processEvent()
 			self.processOther()
 			pg.display.update()
